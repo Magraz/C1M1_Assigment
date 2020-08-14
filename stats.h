@@ -26,7 +26,7 @@
  * This function makes of use of most functions declared on the stats.h header file in order to print
  * their results.
  * @param arr_size An unsigned integer as the size of the array
- * @param arr_data  A unsigned char pointer to an n-element data array
+ * @param arr_data An unsigned char pointer to an n-element data array
  *
  *
  * @return No return values
@@ -39,7 +39,7 @@ void print_statistics(unsigned int arr_size, unsigned char * arr_data);
  * This function will print the array as a one-dimensional vector.
  *
  * @param arr_size An unsigned integer as the size of the array
- * @param arr_data  A unsigned char pointer to an n-element data array
+ * @param arr_data An unsigned char pointer to an n-element data array
  *
  *
  * @return No return values
@@ -52,7 +52,7 @@ void print_array(unsigned int arr_size, unsigned char * arr_data);
  * This function will sort the array and find the median value.
  *
  * @param arr_size An unsigned integer as the size of the array
- * @param arr_data  A unsigned char pointer to an n-element data array
+ * @param arr_data An unsigned char pointer to an n-element data array
  *
  *
  * @return The median value of the array.
@@ -66,7 +66,7 @@ unsigned char find_median(unsigned int arr_size, unsigned char * arr_data);
  * elements in the array, to output the mean of said array.
  *
  * @param arr_size An unsigned integer as the size of the array
- * @param arr_data  A unsigned char pointer to an n-element data array
+ * @param arr_data An unsigned char pointer to an n-element data array
  *
  *
  * @return The mean of the array.
@@ -80,7 +80,7 @@ float find_mean(unsigned int arr_size, unsigned char * arr_data);
  * will determine the maximum value.
  *
  * @param arr_size An unsigned integer as the size of the array
- * @param arr_data  A unsigned char pointer to an n-element data array
+ * @param arr_data An unsigned char pointer to an n-element data array
  *
  *
  * @return The maximum value of the array.
@@ -94,7 +94,7 @@ unsigned char find_maximum(unsigned int arr_size, unsigned char * arr_data);
  * will determine the minimum value.
  *
  * @param arr_size An unsigned integer as the size of the array
- * @param arr_data  A unsigned char pointer to an n-element data array
+ * @param arr_data An unsigned char pointer to an n-element data array
  *
  *
  * @return The minimum value of the array.
@@ -108,7 +108,7 @@ unsigned char find_minimum(unsigned int arr_size, unsigned char * arr_data);
  * We iterate through the array and perform changes until the amount of changes on a complete array iteration is 0. 
  *
  * @param arr_size An unsigned integer as the size of the array
- * @param arr_data  A unsigned char pointer to an n-element data array
+ * @param arr_data An unsigned char pointer to an n-element data array
  *
  *
  * @return It sorts the array through a pointer, the function returns no value.
